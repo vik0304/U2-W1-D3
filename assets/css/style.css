@@ -49,6 +49,11 @@ button {
   font-size: 1.7em;
 }
 
+button:hover {
+  background-color: #ecb40b;
+  cursor: pointer;
+}
+
 nav img {
   width: 50px;
 }
@@ -338,7 +343,7 @@ h5 {
     font-size: 1.1em;
   }
   .itemHolder:nth-of-type(5) {
-    display: block;
+    display: flex;
   }
 }
 
@@ -429,4 +434,15 @@ h3 {
   .articleContainer .description {
     width: 45%;
   }
+}
+
+.footer {
+  background-color: #562c18;
+  border-radius: 30px;
+  text-align: center;
+  padding: 7px;
+}
+
+.footer p {
+  color: #fbf2e3;
 }
